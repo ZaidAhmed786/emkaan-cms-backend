@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors());
 
 // Mount routes
-app.use('/api', require('./routes/api'));
+app.use('/api', require('./routes/routes'));
 
 // Error handling middleware
 app.use((err, req, res, next) => {
